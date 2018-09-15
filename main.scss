@@ -6,6 +6,18 @@ h1 {
   font-family: $primary-font;
 }
 
+.main-container {
+  height: 100vh;
+  background: rgba(0,136,255,1);
+  background: -moz-linear-gradient(-45deg, rgba(0,136,255,1) 0%, rgba(41,184,229,1) 50%, rgba(6,191,182,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(0,136,255,1)), color-stop(50%, rgba(41,184,229,1)), color-stop(100%, rgba(6,191,182,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(0,136,255,1) 0%, rgba(41,184,229,1) 50%, rgba(6,191,182,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(0,136,255,1) 0%, rgba(41,184,229,1) 50%, rgba(6,191,182,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(0,136,255,1) 0%, rgba(41,184,229,1) 50%, rgba(6,191,182,1) 100%);
+  background: linear-gradient(135deg, rgba(0,136,255,1) 0%, rgba(41,184,229,1) 50%, rgba(6,191,182,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088ff', endColorstr='#06bfb6', GradientType=1 );
+}
+
 .dashboard-title {
   font-family: $primary-font;
 }

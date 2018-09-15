@@ -44,4 +44,18 @@ table {
 h1 {
   font-family: "Quicksand", sans-serif; }
 
+.main-container {
+  height: 100vh;
+  background: #0088ff;
+  background: -moz-linear-gradient(-45deg, #0088ff 0%, #29b8e5 50%, #06bfb6 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #0088ff), color-stop(50%, #29b8e5), color-stop(100%, #06bfb6));
+  background: -webkit-linear-gradient(-45deg, #0088ff 0%, #29b8e5 50%, #06bfb6 100%);
+  background: -o-linear-gradient(-45deg, #0088ff 0%, #29b8e5 50%, #06bfb6 100%);
+  background: -ms-linear-gradient(-45deg, #0088ff 0%, #29b8e5 50%, #06bfb6 100%);
+  background: linear-gradient(135deg, #0088ff 0%, #29b8e5 50%, #06bfb6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088ff', endColorstr='#06bfb6', GradientType=1 ); }
+
+.dashboard-title {
+  font-family: "Quicksand", sans-serif; }
+
 /*# sourceMappingURL=style.css.map */
