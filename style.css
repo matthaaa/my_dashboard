@@ -45,7 +45,11 @@ h1 {
   font-family: "Quicksand", sans-serif; }
 
 .main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 100vh;
+  width: 100vw;
   background: #0088ff;
   background: -moz-linear-gradient(-45deg, #0088ff 0%, #29b8e5 50%, #06bfb6 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, #0088ff), color-stop(50%, #29b8e5), color-stop(100%, #06bfb6));
@@ -55,7 +59,25 @@ h1 {
   background: linear-gradient(135deg, #0088ff 0%, #29b8e5 50%, #06bfb6 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088ff', endColorstr='#06bfb6', GradientType=1 ); }
 
-.dashboard-title {
-  font-family: "Quicksand", sans-serif; }
+.welcome-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  padding: 30px;
+  margin: 50px;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 4px; }
+  .welcome-header h1 {
+    font-size: 50pt;
+    font-weight: 50;
+    text-align: center; }
+  .welcome-header h3 {
+    margin-top: 12px;
+    font-size: 20pt;
+    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
